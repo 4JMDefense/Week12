@@ -1,11 +1,13 @@
-let albutton = document.querySelector("button");
+const albutton = document.querySelector("#alert");
+
+albutton.addEventListener("click",buttonPressed);
 
 function buttonPressed ()
 {
-    alert("Button Pressed")
+    alert("Button Pressed");
 }
 
 
-albutton.onclick = buttonPressed;
+
 
 
